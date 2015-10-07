@@ -7,5 +7,5 @@ This is an example Phoenix project using [Slim][slim] templates with [PhoenixSli
 
 Please see [LICENSE](https://github.com/doomspork/phoenix_slim_example/blob/master/LICENSE) for licensing details.
 
-[phoenix_slim]: github.com/doomspork/phoenix_slim
-[slim]: slim-lang.com
+[phoenix_slim]: https://github.com/doomspork/phoenix_slim
+[slim]: https://slim-lang.com
