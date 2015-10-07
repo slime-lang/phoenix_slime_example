@@ -19,7 +19,7 @@ defmodule PhoenixSlimExample.Web do
   def model do
     quote do
       use Ecto.Model
-      
+
     end
   end
 
@@ -28,8 +28,6 @@ defmodule PhoenixSlimExample.Web do
       use Phoenix.Controller
 
       alias PhoenixSlimExample.Repo
-      import Ecto.Model
-      import Ecto.Query, only: [from: 1, from: 2]
 
       import PhoenixSlimExample.Router.Helpers
     end
@@ -60,8 +58,6 @@ defmodule PhoenixSlimExample.Web do
       use Phoenix.Channel
 
       alias PhoenixSlimExample.Repo
-      import Ecto.Model
-      import Ecto.Query, only: [from: 1, from: 2]
 
     end
   end

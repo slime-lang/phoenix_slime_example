@@ -17,8 +17,7 @@ defmodule PhoenixSlimExample.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {PhoenixSlimExample, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex]]
+     applications: [:phoenix, :phoenix_html, :cowboy, :logger]]
   end
 
   # Specifies which paths to compile per environment
@@ -30,8 +29,6 @@ defmodule PhoenixSlimExample.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [{:phoenix, "~> 1.0.2"},
-     {:phoenix_ecto, "~> 1.1"},
-     {:postgrex, ">= 0.0.0"},
      {:phoenix_slim, "~> 0.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"}]

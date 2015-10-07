@@ -11,12 +11,3 @@ config :logger, level: :warn
 
 # Set a higher stacktrace during test
 config :phoenix, :stacktrace_depth, 20
-
-# Configure your database
-config :phoenix_slim_example, PhoenixSlimExample.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "phoenix_slim_example_test",
-  hostname: "localhost",
-  pool: Ecto.Adapters.SQL.Sandbox

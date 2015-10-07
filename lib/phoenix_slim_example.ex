@@ -9,8 +9,6 @@ defmodule PhoenixSlimExample do
     children = [
       # Start the endpoint when the application starts
       supervisor(PhoenixSlimExample.Endpoint, []),
-      # Start the Ecto repository
-      worker(PhoenixSlimExample.Repo, []),
       # Here you could define other workers and supervisors as children
       # worker(PhoenixSlimExample.Worker, [arg1, arg2, arg3]),
     ]

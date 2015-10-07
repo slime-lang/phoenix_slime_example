@@ -21,21 +21,11 @@ defmodule PhoenixSlimExample.ConnCase do
       use Phoenix.ConnTest
 
       alias PhoenixSlimExample.Repo
-      import Ecto.Model
-      import Ecto.Query, only: [from: 2]
 
       import PhoenixSlimExample.Router.Helpers
 
       # The default endpoint for testing
       @endpoint PhoenixSlimExample.Endpoint
     end
-  end
-
-  setup tags do
-    unless tags[:async] do
-      Ecto.Adapters.SQL.restart_test_transaction(PhoenixSlimExample.Repo, [])
-    end
-
-    :ok
   end
 end
