@@ -1,0 +1,20 @@
+doctype html
+html lang="en" 
+  head
+    meta charset="utf-8"
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta content="width=device-width, initial-scale=1" name="viewport"
+    meta content="" name="description"
+    meta content="" name="author"
+    title Hello Phoenix + Slim!
+    link rel="stylesheet" href=static_path(@conn,"/css/app.css")
+  body
+    .container role="main" 
+      .header
+        ul.nav.nav-pills.pull-right
+          li
+            a href="http://www.phoenixframework.org/docs"  Get Started
+        span.logo
+      = render "_flashes.html", conn: @conn
+      = @inner
+    script src=static_path(@conn,"/js/app.js")
