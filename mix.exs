@@ -1,4 +1,4 @@
-defmodule PhoenixSlimExample.Mixfile do
+defmodule PhoenixSlimeExample.Mixfile do
   use Mix.Project
 
   def project do
@@ -16,7 +16,7 @@ defmodule PhoenixSlimExample.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [mod: {PhoenixSlimExample, []},
+    [mod: {PhoenixSlimeExample, []},
      applications: [:phoenix, :phoenix_html, :cowboy, :logger]]
   end
 
@@ -28,8 +28,8 @@ defmodule PhoenixSlimExample.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 1.0.2"},
-     {:phoenix_slim, "~> 0.4"},
+    [{:phoenix, "~> 1.1"},
+     {:phoenix_slime, "~> 0.4"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"}]
   end

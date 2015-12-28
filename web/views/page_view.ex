@@ -1,3 +1,3 @@
-defmodule PhoenixSlimExample.PageView do
-  use PhoenixSlimExample.Web, :view
+defmodule PhoenixSlimeExample.PageView do
+  use PhoenixSlimeExample.Web, :view
 end

@@ -6,12 +6,12 @@
 use Mix.Config
 
 # Configures the endpoint
-config :phoenix_slim_example, PhoenixSlimExample.Endpoint,
+config :phoenix_slim_example, PhoenixSlimeExample.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
   secret_key_base: "3J5Vm0xuKUmQzNy5YqDE5SAnZB0rvYix1FQjaLAAqKirCMh5b3MM9xDTLseN84ox",
   render_errors: [accepts: ~w(html json)],
-  pubsub: [name: PhoenixSlimExample.PubSub,
+  pubsub: [name: PhoenixSlimeExample.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
@@ -29,4 +29,5 @@ config :phoenix, :generators,
   binary_id: false
 
 config :phoenix, :template_engines,
-    slim: PhoenixSlim.Engine
+    slim: PhoenixSlime.Engine,
+   slime: PhoenixSlime.Engine

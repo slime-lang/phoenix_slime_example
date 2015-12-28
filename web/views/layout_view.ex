@@ -1,3 +1,3 @@
-defmodule PhoenixSlimExample.LayoutView do
-  use PhoenixSlimExample.Web, :view
+defmodule PhoenixSlimeExample.LayoutView do
+  use PhoenixSlimeExample.Web, :view
 end

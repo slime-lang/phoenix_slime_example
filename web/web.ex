@@ -1,12 +1,12 @@
-defmodule PhoenixSlimExample.Web do
+defmodule PhoenixSlimeExample.Web do
   @moduledoc """
   A module that keeps using definitions for controllers,
   views and so on.
 
   This can be used in your application as:
 
-      use PhoenixSlimExample.Web, :controller
-      use PhoenixSlimExample.Web, :view
+      use PhoenixSlimeExample.Web, :controller
+      use PhoenixSlimeExample.Web, :view
 
   The definitions below will be executed for every view,
   controller, etc, so keep them short and clean, focused
@@ -27,9 +27,9 @@ defmodule PhoenixSlimExample.Web do
     quote do
       use Phoenix.Controller
 
-      alias PhoenixSlimExample.Repo
+      alias PhoenixSlimeExample.Repo
 
-      import PhoenixSlimExample.Router.Helpers
+      import PhoenixSlimeExample.Router.Helpers
     end
   end
 
@@ -43,7 +43,7 @@ defmodule PhoenixSlimExample.Web do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import PhoenixSlimExample.Router.Helpers
+      import PhoenixSlimeExample.Router.Helpers
     end
   end
 
@@ -57,7 +57,7 @@ defmodule PhoenixSlimExample.Web do
     quote do
       use Phoenix.Channel
 
-      alias PhoenixSlimExample.Repo
+      alias PhoenixSlimeExample.Repo
 
     end
   end

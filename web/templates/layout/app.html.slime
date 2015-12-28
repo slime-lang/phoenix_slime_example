@@ -16,5 +16,5 @@ html lang="en"
             a href="http://www.phoenixframework.org/docs"  Get Started
         span.logo
       = render "_flashes.html", conn: @conn
-      = @inner
+      = render @view_module, @view_template, assigns
     script src=static_path(@conn,"/js/app.js")
