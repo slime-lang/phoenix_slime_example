@@ -1,5 +1,5 @@
-defmodule PhoenixSlimExample.PageControllerTest do
-  use PhoenixSlimExample.ConnCase
+defmodule PhoenixSlimeExample.PageControllerTest do
+  use PhoenixSlimeExample.ConnCase
 
   test "GET /" do
     conn = get conn(), "/"

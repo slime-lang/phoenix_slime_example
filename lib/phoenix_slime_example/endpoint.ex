@@ -1,7 +1,7 @@
-defmodule PhoenixSlimExample.Endpoint do
+defmodule PhoenixSlimeExample.Endpoint do
   use Phoenix.Endpoint, otp_app: :phoenix_slim_example
 
-  socket "/socket", PhoenixSlimExample.UserSocket
+  socket "/socket", PhoenixSlimeExample.UserSocket
 
   # Serve at "/" the static files from "priv/static" directory.
   #
@@ -35,5 +35,5 @@ defmodule PhoenixSlimExample.Endpoint do
     key: "_phoenix_slim_example_key",
     signing_salt: "bk+vS5WW"
 
-  plug PhoenixSlimExample.Router
+  plug PhoenixSlimeExample.Router
 end

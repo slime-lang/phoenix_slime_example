@@ -1,3 +1,3 @@
-defmodule PhoenixSlimExample.LayoutViewTest do
-  use PhoenixSlimExample.ConnCase, async: true
+defmodule PhoenixSlimeExample.LayoutViewTest do
+  use PhoenixSlimeExample.ConnCase, async: true
 end

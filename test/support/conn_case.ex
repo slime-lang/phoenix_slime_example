@@ -1,4 +1,4 @@
-defmodule PhoenixSlimExample.ConnCase do
+defmodule PhoenixSlimeExample.ConnCase do
   @moduledoc """
   This module defines the test case to be used by
   tests that require setting up a connection.
@@ -20,12 +20,12 @@ defmodule PhoenixSlimExample.ConnCase do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
 
-      alias PhoenixSlimExample.Repo
+      alias PhoenixSlimeExample.Repo
 
-      import PhoenixSlimExample.Router.Helpers
+      import PhoenixSlimeExample.Router.Helpers
 
       # The default endpoint for testing
-      @endpoint PhoenixSlimExample.Endpoint
+      @endpoint PhoenixSlimeExample.Endpoint
     end
   end
 end

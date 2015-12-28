@@ -1,8 +1,8 @@
-defmodule PhoenixSlimExample.UserSocket do
+defmodule PhoenixSlimeExample.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "rooms:*", PhoenixSlimExample.RoomChannel
+  # channel "rooms:*", PhoenixSlimeExample.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
@@ -30,7 +30,7 @@ defmodule PhoenixSlimExample.UserSocket do
   # Would allow you to broadcast a "disconnect" event and terminate
   # all active sockets and channels for a given user:
   #
-  #     PhoenixSlimExample.Endpoint.broadcast("users_socket:" <> user.id, "disconnect", %{})
+  #     PhoenixSlimeExample.Endpoint.broadcast("users_socket:" <> user.id, "disconnect", %{})
   #
   # Returning `nil` makes this socket anonymous.
   def id(_socket), do: nil

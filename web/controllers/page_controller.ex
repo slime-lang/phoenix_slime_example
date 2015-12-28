@@ -1,5 +1,5 @@
-defmodule PhoenixSlimExample.PageController do
-  use PhoenixSlimExample.Web, :controller
+defmodule PhoenixSlimeExample.PageController do
+  use PhoenixSlimeExample.Web, :controller
 
   def index(conn, _params) do
     conn

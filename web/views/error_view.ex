@@ -1,5 +1,5 @@
-defmodule PhoenixSlimExample.ErrorView do
-  use PhoenixSlimExample.Web, :view
+defmodule PhoenixSlimeExample.ErrorView do
+  use PhoenixSlimeExample.Web, :view
 
   def render("404.html", _assigns) do
     "Page not found"
